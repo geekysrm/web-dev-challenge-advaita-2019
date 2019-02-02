@@ -125,27 +125,31 @@
           <header class="major">
             <h2>How to Submit</h2>
             <p>
-              Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.
+							Fill the form ONLY ONCE after you are done.
+							<br>
+							Multiple forms will to be rejected.
             </p>
           </header>
-					<form name="contact" method="POST" data-netlify="true">
-						<p>
-							<label>Your Name: <input type="text" name="name" /></label>
+					<form  name="contact" method="POST" data-netlify="true">
+						<p style="text-align: left;">
+							<label >Team Name: <input type="text" name="team-name" /></label>
 						</p>
-						<p>
-							<label>Your Email: <input type="email" name="email" /></label>
+							<p style="text-align: left;">
+								<label>Team Member 1 Name: <input type="text" name="team-member-1" /></label>
+							</p >
+							<p style="text-align: left;">
+								<label>Team Member 2 Name: (if any) <input type="text" name="team-member-2" /></label>
+							</p>
+						<p style="text-align: left;">
+							<label>Contact Email: <input type="email" placeholder="Enter an email for contact purposes" name="email" /></label>
 						</p>
-						<p>
-							<label>Your Role: <select name="role[]" multiple>
-									<option value="leader">Leader</option>
-									<option value="follower">Follower</option>
-								</select></label>
+								<p style="text-align: left;">
+									<label>Institute Name <input type="text" name="college" /></label>
+								</p>
+						<p style="text-align: left;">
+							<label>Github repo link: <input type="text" name="github-link" /></label>
 						</p>
-						<p>
-							<label>Message: <textarea name="message"></textarea></label>
-						</p>
-						<p>
+						<p style="text-align: left;">
 							<button type="submit">Send</button>
 						</p>
 					</form>
