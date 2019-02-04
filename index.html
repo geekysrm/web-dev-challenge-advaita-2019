@@ -33,8 +33,7 @@
           <li><a href="#intro" class="active">Overview</a></li>
           <li><a href="#second">Topic</a></li>
           <li><a href="#first">Rules</a></li>
-          <!-- <li><a href="#cta">Submit</a></li> -->
-          <li><a href="#cta">Register</a></li>
+          <li><a href="#cta">Register &amp; Submit</a></li>
         </ul>
       </nav>
 
@@ -52,7 +51,7 @@
 								<h3 class="bold_font" >Event Details:</h3>
 								Team Size: 1-2<br>
 							  Event Duration: 4th February 2019 18:00 - 5th February 2019 18:00 (24 hrs)<br>
-                <p class="bold_font" >Prizes worth : &nbsp;&nbsp;<span class="prizes" >10K</span> </p>
+                <p class="bold_font" >Prizes worth : &nbsp;&nbsp;<span class="prizes" >&#8377; 10K</span> </p>
               </p>
             </div>
             <span class="image"><img src="images/pic01.svg" alt=""/></span>
@@ -66,13 +65,31 @@
 
 
           <div class="container">
-            <h1 id="head">Event starts in :</h1>
-            <ul>
-              <li class="timer" ><span id="days"></span>days</li>
-              <li class="timer" ><span id="hours"></span>Hours</li>
-              <li class="timer" ><span id="minutes"></span>Minutes</li>
-              <li class="timer" ><span id="seconds"></span>Seconds</li>
-            </ul>
+
+              <header class="major">
+                  <h2>Topic</h2>
+                  <h2 class="bold_font" >
+                    Online Auction Platform
+                  </h2>
+                </header>
+      
+                <p style="text-align: left;">
+                  <b >Features expected:</b>
+                  <ol style="text-align: left;">
+                    <li>User can signup and thereafter login.</li>
+                    <li>User can host an auction by providing details of the product like description, photos, base bid price, start and end time etc.</li>
+                    <li>Provide a dashboard to display all live auctions.</li>
+                    <li>Other users can place bid on live auctions.</li>
+                    <li>Once the auction is over the product will sold to the highest bidder.</li>
+                  </ol>
+                </p>
+                <footer class="major" style="text-align: left;">
+                 <p><u>NOTE:</u> <br>
+                You are free to use any Language / Tech Stack.
+                <br>
+                Extra features will get bonus points.
+                </p>
+                </footer>
           </div>
 
         </section>
@@ -135,14 +152,43 @@
           <label>Institute Name <input style="height: 40px" type="text" name="college" required /></label>
         </p>
     <p style="text-align: left;">
-      <button type="submit">Register</button>
+      <button name="register" type="submit">Register</button>
     </p>
-    <br>
-    <h3>
-      Project Submission Form will be live here once the event starts
-    </h3>
-
   </form>
+    <br>
+   <header class="major">
+    <h2>Submit</h2>
+        <p>
+            <span class="bold_font" >Important: First register in the above form then submit your project.</span>
+            <br>
+          Fill the form ONLY ONCE after you are done.
+          <br>
+          Multiple submissions will be rejected.
+        </p>
+        <u>NOTE</u>: <br>
+        The project files should be uploaded to a public Repo on Github.<br>
+        There should be a README file containing instructions on how to run the project.<br>
+        Deployment of the project is always a plus!<br>
+
+      </header>
+
+      <form  name="submit" method="POST" data-netlify="true">
+        <p style="text-align: left;">
+          <label >Team Name: <input style="height: 40px" type="text" name="team-name" required /></label>
+        </p>
+        <p style="text-align: left;">
+          <label>Contact Email: <input style="height: 40px" type="email" placeholder="Enter an email for contact purposes" name="email" required /></label>
+        </p>
+        <p style="text-align: left;">
+          <label>Github repo link: (public) <input style="height: 40px" type="text" name="github-link" required /></label>
+        </p>
+        <p style="text-align: left;">
+          <label>Deployed link: (if any) <input style="height: 40px" type="text" name="deployed-link" /></label>
+        </p>
+        <p style="text-align: left;">
+          <button name="submit" type="submit">Submit</button>
+        </p>
+      </form>
 </section>
 
 
@@ -151,7 +197,7 @@
       <!-- Footer -->
       <footer id="footer">
         <section>
-          <h2 class="bold_font" >Contact</h2>
+          <h2 class="bold_font" >Contact for any Queries</h2>
           <dl class="alt">
             <h3><a href="https://sonu12485.github.io" target="_blank">K Sai Kishan</a> - 9777576767</h3>
             <h3><a href="https://geekysrm.github.io" target="_blank">Soumya Ranjan Mohanty</a> - 7008814851</h3>
